@@ -29,18 +29,20 @@ function UserLists() {
         content = <div>Error ......</div>
     } else {
         content = data.map((user) => {
-            return <UserListItem key={user.id} user={user} />;
+            return <UserListItem user={user} />;
         });
     }
 
-    return <div><div className="flex flex-row justify-between items-center m-3">
-        <h1 className="text-xl m-2">Users</h1>
-        <Button loading={isCreatingUser} onClick={handleUserAdd}>
-            + Add User
-        </Button>
-        {creatingUsersError && 'Error Occur...'}
+    return <div>
+        <div className="flex flex-row justify-between items-center m-3">
+            <h1 className="text-xl m-2">Users</h1>
+            <Button loading={isCreatingUser} onClick={handleUserAdd}>
+                + Add User
+            </Button>
+            {creatingUsersError && 'Error Occur...'}
+        </div>
+        <div>{content}</div>
     </div>
-        {content}</div>
 };
 
 export default UserLists;
