@@ -38,11 +38,11 @@ const userSlice = createSlice({
         });
         builder.addCase(removeUser.fulfilled, (state, action) => {
             state.isLoading = false;
-            console.log(action);
         });
         builder.addCase(removeUser.rejected, (state, action) => {
             state.isLoading = false;
-            state.data = action.error;
+            state.error = action.error;
+            console.log(action)
         });
     }
 });
