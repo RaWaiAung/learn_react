@@ -288,6 +288,21 @@
       "userId": 1,
       "title": "Generic Fresh Computer",
       "id": 12
+    },
+    {
+      "userId": 1,
+      "title": "Luxurious Wooden Keyboard",
+      "id": 13
+    },
+    {
+      "userId": 1,
+      "title": "Small Fresh Pants",
+      "id": 14
+    },
+    {
+      "userId": 3,
+      "title": "Luxurious Granite Car",
+      "id": 15
     }
   ],
   "photos": []
