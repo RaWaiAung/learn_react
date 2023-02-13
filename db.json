@@ -275,16 +275,6 @@
   ],
   "albums": [
     {
-      "id": 10,
-      "title": "Hiking Trip",
-      "userId": 1
-    },
-    {
-      "userId": 1,
-      "title": "Gorgeous Plastic Ball",
-      "id": 11
-    },
-    {
       "userId": 1,
       "title": "Generic Fresh Computer",
       "id": 12

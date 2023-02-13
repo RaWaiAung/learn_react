@@ -13,4 +13,4 @@ const pause = (durations) => {
     })
 };
 
-export { fetchUsers };
+export { fetchUsers, pause };
