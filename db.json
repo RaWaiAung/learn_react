@@ -271,29 +271,42 @@
     {
       "name": "Sonya Fay",
       "id": 69
+    },
+    {
+      "name": "Gustavo Greenholt",
+      "id": 70
+    },
+    {
+      "name": "Darrel Lueilwitz DDS",
+      "id": 71
+    },
+    {
+      "name": "Betty Conroy",
+      "id": 72
     }
   ],
   "albums": [
     {
-      "userId": 1,
-      "title": "Generic Fresh Computer",
-      "id": 12
-    },
-    {
-      "userId": 1,
-      "title": "Luxurious Wooden Keyboard",
-      "id": 13
-    },
-    {
-      "userId": 1,
-      "title": "Small Fresh Pants",
-      "id": 14
-    },
-    {
       "userId": 3,
       "title": "Luxurious Granite Car",
       "id": 15
+    },
+    {
+      "userId": 1,
+      "title": "Elegant Steel Ball",
+      "id": 16
+    },
+    {
+      "userId": 1,
+      "title": "Ergonomic Rubber Hat",
+      "id": 17
     }
   ],
-  "photos": []
+  "photos": [
+    {
+      "albumId": 16,
+      "url": "https://loremflickr.com/150/150/abstract?lock=60331",
+      "id": 1
+    }
+  ]
 }
